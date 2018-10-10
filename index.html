@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trivia Game</title>
+
+   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!--<script src="http://code.jquery.com/jquery-latest.min.js" 
+    type="text/javascript"></script>-->
+</head>
+<body>
+<div id="main-quiz-holder"> 
+    <div id="intro-container" class="questionContainer"> 
+        <a class="btnStart" href="#"><img src="assets/images/main.jpg"/></a> 
+    </div> 
+    <div class="questionContainer hide"> 
+        <div class="question"> 
+            What was Google's name originally at its conception in 1996?
+        </div> 
+        <ul class="answers"> 
+            <li> 
+            <label><input data-key="a" type="radio">superSearch</label> 
+            </li> 
+            <li> 
+            <label><input data-key="b" type="radio">Backrub</label> 
+            </li> 
+            <li> 
+            <label><input data-key="c" type="radio">Intuitive Engine</label> 
+            </li> 
+            <li> 
+            <label><input data-key="d" type="radio">Global X.</label> 
+            </li> 
+        </ul> 
+        <div class="btnContainer"> 
+            <div class="next"> 
+                <a class="btnNext" href="#">Next</a> 
+            </div> 
+            <div class="clear"> 
+            </div> 
+        </div> 
+    </div> 
+    <div class="questionContainer hide"> 
+        <div class="question"> 
+            What are the names of Google's founders? 
+        </div> 
+        <ul class="answers"> 
+            <li> 
+            <label><input data-key="a" type="radio">Reid Hoffman and Allen Allen Blue</label> 
+            </li> 
+            <li> 
+            <label><input data-key="b" type="radio">Kevin Systrom and Mike Krieger</label> 
+            </li> 
+            <li> 
+            <label><input data-key="c" type="radio">Evan Spiegel and Miranda Kerr</label> 
+            </li> 
+            <li> 
+            <label><input data-key="d" type="radio">Larry Page and Sergey Brin</label> 
+            </li> 
+        </ul> 
+        <div class="btnContainer"> 
+            <div class="prev"> 
+                <a class="btnPrev" href="#">Prev</a> 
+            </div> 
+            <div class="next"> 
+                <a class="btnNext" href="#">Next</a> 
+            </div> 
+            <div class="clear"> 
+            </div> 
+        </div> 
+    </div> 
+    
+    <div class="questionContainer hide"> 
+        <div class="question"> 
+            What company is not owned by Google's founders under the Alphabet Inc? 
+        </div> 
+        <ul class="answers"> 
+            <li> 
+            <label><input data-key="a" type="radio">YouTube</label> 
+            </li> 
+            <li> 
+            <label><input data-key="b" type="radio">Amazon</label> 
+            </li> 
+            <li> 
+            <label><input data-key="c" type="radio">Calico
+            <li> 
+            <label><input data-key="d" type="radio">Android</label> 
+            </li> 
+        </ul> 
+        <div class="btnContainer"> 
+            <div class="prev"> 
+                <a class="btnPrev" href="#">Prev</a> 
+            </div> 
+            <div class="next"> 
+                <a class="btnShowResult" href="#">Finish</a> 
+            </div> 
+            <div class="clear"> 
+            </div> 
+        </div> 
+    </div> 
+    <div id="results-container" class="questionContainer hide"> 
+        <div id="resultKeeper"> 
+        </div> 
+    </div> 
+    <div id="progressKeeper"> 
+        <div id="progress"> 
+        </div> 
+    </div> 
+    <div id="notice"> 
+        Please select an option 
+    </div> 
+</div>
+</body>
+</html>
